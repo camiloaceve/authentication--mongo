@@ -5,7 +5,7 @@ require('./db/connectDB')
 const app = express()
 
 // Import routes
-//const authRoutes = require('./routes/auth')
+const authRoutes = require('./routes/auth')
 
 app.use(express.json())
 app.use(cors())
